@@ -1,0 +1,14 @@
+.card_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+@media screen and (max-width: 320px) {
+    .card_box {flex-direction: column;}
+}
+@media screen and (max-width: 904px) {
+    .card_box {
+        justify-content: center;
+        gap:40px
+    }
+}

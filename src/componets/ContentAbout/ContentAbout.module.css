@@ -1,0 +1,96 @@
+.content_about {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 135px 55px 40px 80px;
+}
+.about_container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.about_container:nth-child(2){align-items: end;}
+.slogan_title, .what_title, .now_title {
+    padding-bottom: 20px;
+    font-family: 'StemBold';
+    font-size: 54px;
+    color: #ffffff;
+    line-height: 54px;
+    text-align: start;
+}
+.position_right {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+}
+.slogan_text{
+    font-family: 'StemBold';
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #ffffff;
+}
+.what_text, .now_text {
+    font-family: 'StemMedium';
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.now_text{width: 53.71%;}
+.slogan_btn {
+    padding: 10px 25px 11px 25px;
+    margin-top: 40px;
+    font-family: 'StemMedium';
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: rgba(255, 85, 97, 1);
+    cursor: pointer;
+}
+@media screen and (max-width: 320px){
+    .content_about {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 36px 40px 20px;
+    }
+    .slogan_title, .what_title, .now_title {
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .slogan_text {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .about_container:nth-child(2){align-items: start;}
+    .position_right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .now_text{width: 100%;}
+}
+@media  screen and (max-width: 1279px) {
+    .content_about {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 36px 40px 20px;
+    }
+    .slogan_title, .what_title, .now_title {
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .slogan_text {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .about_container:nth-child(2) {align-items: start;}
+    .position_right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .now_text {width: 100%;}
+}

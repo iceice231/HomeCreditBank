@@ -1,0 +1,48 @@
+.content {
+    padding: 0px 363px 0px 79px;
+}
+.title {
+    position: relative;
+    display: flex;
+    font-family: 'StemBold';
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffff;
+}
+.title::before {
+    content: '';
+    width: 10px;
+    height: 43px;
+    display:inline-block;
+    margin-right: 10px;
+    background-color: rgba(49, 91, 124, 1);
+}
+.peopleList {
+    display: flex;
+    gap: 80px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 320px) {
+    .title {
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .peopleList {
+        justify-content: center;
+        gap:40px;
+    }
+}
+@media screen and (max-width: 1279px) {
+    .title {
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .peopleList {
+        justify-content: start;
+        gap:40px;
+        padding-bottom: 90px;
+        padding-left: 20px;
+    }
+    .content {padding: 0px 0px 0px 20px;}
+}

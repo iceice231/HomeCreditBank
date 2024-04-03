@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url("../fonts/open_sans/OpenSans-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'StemBold';
+    src: url("../fonts/stem/Stem-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'StemMedium';
+    src: url("../fonts/stem/Stem-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'ManropeRegular';
+    src: url("../fonts/manrope/Manrope-Regular.ttf");
+    font-weight: 400;
+}
+
+
+

@@ -1,0 +1,21 @@
+.nav_link {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 11px 0 11px 10px;
+    border-radius: 10px;
+    font-family: 'StemMedium';
+    text-decoration: none;
+    font-size: 16px;
+    color:rgba(0, 56, 101, 1);;
+    transition: all 0.3s ease-in;
+}
+.nav_link:hover {
+    background-color: rgba(126, 154, 176, 1);
+    color:white;
+}
+.nav_link svg{fill: #ffffff;}
+.nav_link img {
+    height: 25px;
+    width: 25px;
+}

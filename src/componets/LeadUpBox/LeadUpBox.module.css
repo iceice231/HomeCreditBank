@@ -1,0 +1,29 @@
+.leadup_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    margin-top: 40px;
+    font-family: 'StemBold';
+    font-size: 36px;
+    line-height: 43.2px;
+    text-align: center;
+}
+.leadup_content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 58px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.leadup_img {
+    position: absolute;
+    top:28%;
+    left:25%;
+    z-index: 1;
+}

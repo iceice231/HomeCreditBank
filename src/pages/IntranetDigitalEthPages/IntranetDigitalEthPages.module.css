@@ -1,0 +1,34 @@
+.wrapper {
+    max-width: 1220px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 2539px;
+    width: 51.95%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 0 20px 80px 18px
+}
+.center {display: flex;}
+
+@media screen and (max-width: 320px) {
+    .center {
+        flex-direction: column;
+    }
+
+    .main {
+        width: 100%;
+        margin: 0;
+        margin: 0 20px 0 20px;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

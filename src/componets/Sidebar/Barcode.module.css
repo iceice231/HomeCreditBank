@@ -1,0 +1,38 @@
+.sideBar_barcode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.barcode_text {
+    padding: 20px 20px 40px 20px;
+    font-family: 'StemBold';
+    font-size: 24px;
+    line-height: 28.8px;
+    color: rgba(49, 91, 124, 1);
+}
+.barcode_img {
+    height: 130px;
+    width: 130px;
+    margin-bottom: 40px;
+}
+.barcode_btn {
+    padding: 11px 40px 10px 40px;
+    margin-bottom: 61px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'StemMedium';
+    font-size: 16px;
+    line-height: 24px;
+    background-color: rgba(49, 91, 124, 1);
+    color: #ffffff;
+    cursor: pointer;
+}
+@media screen and (max-width: 320px) {
+    .sideBar_barcode {display: none;}
+}
+@media screen and (max-width: 1279px) {
+    .sideBar_barcode {display: none;}
+}
